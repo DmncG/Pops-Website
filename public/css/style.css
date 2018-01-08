@@ -22,7 +22,7 @@ NAVBAR
 */
 .nav-wrapper {
   padding: 10px;
-  background-color: rgba(0, 58, 26, 0.7);
+  background-color: rgba(0, 58, 26, 0.6);
   color: #fff;
   height: 2em;
   width: calc(100vw - 1.3em);
@@ -41,6 +41,47 @@ NAVBAR
   font-size: 1.2em;
   font-family: "Alegreya", serif; }
 
+@media only screen and (max-width: 2560px) {
+  .nav-wrapper {
+    height: 4em; }
+  .nav-list {
+    margin-top: -.4em; }
+  .nav-item {
+    font-size: 3em;
+    padding: 10px 10px 10px 10px; } }
+
+@media only screen and (max-width: 1440px) {
+  .nav-wrapper {
+    height: 2em; }
+  .nav-list {
+    margin-top: -.7em; }
+  .nav-item {
+    font-size: 2.3em; } }
+
+@media only screen and (max-width: 1024px) {
+  .nav-wrapper {
+    height: 2em; }
+  .nav-list {
+    margin-top: -.5em; }
+  .nav-item {
+    font-size: 1.8em; } }
+
+@media only screen and (max-width: 768px) {
+  .nav-wrapper {
+    height: 2em; }
+  .nav-list {
+    margin-top: -.3em; }
+  .nav-item {
+    font-size: 1.4em; } }
+
+@media only screen and (max-width: 375px) {
+  .nav-wrapper {
+    height: 2em; }
+  .nav-list {
+    margin-top: -.1em; }
+  .nav-item {
+    font-size: 1.2em; } }
+
 /*
 *****************
 TITLE SECTION
@@ -49,11 +90,39 @@ TITLE SECTION
 .title-image {
   padding: 0;
   margin: 0;
-  filter: grayscale(100%); }
+  filter: grayscale(80%); }
 
 #title-refinery {
   width: 375px;
   height: auto; }
+
+@media only screen and (max-width: 2560px) {
+  #title-refinery {
+    width: 2560px; } }
+
+@media only screen and (max-width: 1440px) {
+  #title-refinery {
+    width: 1440px; } }
+
+@media only screen and (max-width: 1024px) {
+  #title-refinery {
+    width: 1024px; } }
+
+@media only screen and (max-width: 768px) {
+  #title-refinery {
+    width: 768px; } }
+
+@media only screen and (max-width: 425px) {
+  #title-refinery {
+    width: 425px; } }
+
+@media only screen and (max-width: 375px) {
+  #title-refinery {
+    width: 375px; } }
+
+@media only screen and (max-width: 360px) {
+  #title-refinery {
+    width: 360px; } }
 
 /*
 *****************
@@ -61,7 +130,8 @@ PRODUCTS SECTION
 *****************
 */
 #products {
-  background-color: #e6e6e6; }
+  background-color: #e6e6e6;
+  width: 100%; }
 
 .products-header {
   margin: 0;
@@ -84,6 +154,60 @@ PRODUCTS SECTION
   padding: .5em;
   margin: .5em 5em .5em 5em; }
 
+@media only screen and (max-width: 2560px) {
+  .products-header {
+    font-size: 12em; }
+  .products-category {
+    font-size: 6em; }
+  .products-buttons {
+    width: 500px;
+    margin: .5em 10em .5em 10em; } }
+
+@media only screen and (max-width: 1440px) {
+  .products-header {
+    font-size: 10em; }
+  .products-category {
+    font-size: 5em; }
+  .products-buttons {
+    width: 500px;
+    margin: .5em 6em .5em 6em; } }
+
+@media only screen and (max-width: 1024px) {
+  .products-header {
+    font-size: 8em; }
+  .products-category {
+    font-size: 4em; }
+  .products-buttons {
+    width: 375px;
+    margin: .5em 3.5em .5em 3.5em; } }
+
+@media only screen and (max-width: 768px) {
+  .products-header {
+    font-size: 6em; }
+  .products-category {
+    font-size: 3em; }
+  .products-buttons {
+    width: 300px;
+    margin: .5em 2em .5em 2em; } }
+
+@media only screen and (max-width: 425px) {
+  .products-header {
+    font-size: 4em; }
+  .products-category {
+    font-size: 2em; }
+  .products-buttons {
+    width: 300px;
+    margin: .5em 2em .5em 2em; } }
+
+@media only screen and (max-width: 375px) {
+  .products-header {
+    font-size: 3.5em; }
+  .products-category {
+    font-size: 1.75em; }
+  .products-buttons {
+    width: 200px;
+    margin: .5em 5em .5em 5em; } }
+
 /*
 *****************
 ABOUT SECTION
@@ -93,4 +217,41 @@ ABOUT SECTION
   display: block;
   font-size: 3.5em;
   text-align: center;
-  padding: 10px; }
+  padding: 10px;
+  text-decoration: underline; }
+
+@media only screen and (max-width: 2560px) {
+  .about-header {
+    font-size: 12em; }
+  .about-content {
+    font-size: 3em; } }
+
+@media only screen and (max-width: 1440px) {
+  .about-header {
+    font-size: 10em; }
+  .about-content {
+    font-size: 2.5em; } }
+
+@media only screen and (max-width: 1024px) {
+  .about-header {
+    font-size: 8em; }
+  .about-content {
+    font-size: 2em; } }
+
+@media only screen and (max-width: 768px) {
+  .about-header {
+    font-size: 6em; }
+  .about-content {
+    font-size: 1.5em; } }
+
+@media only screen and (max-width: 425px) {
+  .about-header {
+    font-size: 4em; }
+  .about-content {
+    font-size: 1.25em; } }
+
+@media only screen and (max-width: 375px) {
+  .about-header {
+    font-size: 3.5em; }
+  .about-content {
+    font-size: 1em; } }
