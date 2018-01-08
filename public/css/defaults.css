@@ -10,3 +10,7 @@ h1 {
 h2 {
   font-family: 'Alegreya', serif;
   color: black; }
+
+p {
+  margin: 5px;
+  padding: 10px; }

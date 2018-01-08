@@ -67,19 +67,23 @@ PRODUCTS SECTION
     padding: 5px;
     text-decoration: underline; 
     text-align: center;
+    font-size: 3.5em;
+    display: block;
 }
 
 .products-category{
-    padding: 5px;
-    margin: 0;
+    padding: 10px;
+    margin: .5em;
     text-decoration: underline;
+    font-size: 1.75em;
 }
 
 .products-buttons{
     width: 200px;
+    display: inline-block;
     height: auto;
-    padding: 5px;
-    margin: 5px;
+    padding: .5em;
+    margin: .5em 5em .5em 5em;
    
 }
 
@@ -89,6 +93,11 @@ ABOUT SECTION
 *****************
 */
 
-
+.about-header{
+    display: block;
+    font-size: 3.5em;
+    text-align: center;
+    padding: 10px;
+}
 
 
