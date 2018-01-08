@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass -w scss/style.scss -o public/css",
     "start": "nodemon index.js"
   },
   "keywords": [],
@@ -13,6 +14,7 @@
   "dependencies": {
     "css-loader": "^0.28.7",
     "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
     "node-sass": "^4.7.2",
     "path": "^0.12.7",
     "sass-loader": "^6.0.6",

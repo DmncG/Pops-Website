@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya', serif; }
+
+h1 {
+  font-family: 'Alegreya', serif;
+  color: black; }
+
+h2 {
+  font-family: 'Alegreya', serif;
+  color: black; }
+
+/*
+*****************
+NAVBAR
+*****************
+*/
+.nav-wrapper {
+  padding: 10px;
+  background-color: rgba(0, 58, 26, 0.7);
+  color: #fff;
+  height: 2em;
+  width: calc(100vw - 1.3em);
+  border-radius: 0 0 1em 1em;
+  position: fixed;
+  z-index: 1; }
+
+.nav-list {
+  text-align: right;
+  margin-top: -.1em; }
+
+.nav-item {
+  text-align: right;
+  display: inline-block;
+  padding: 5px 5px 5px 0;
+  font-size: 1.2em;
+  font-family: "Alegreya", serif; }
+
+/*
+*****************
+TITLE SECTION
+*****************
+*/
+.title-image {
+  padding: 0;
+  margin: 0;
+  filter: grayscale(100%); }
+
+#title-refinery {
+  width: 375px;
+  height: auto; }
+
+/*
+*****************
+PRODUCTS SECTION
+*****************
+*/
+#products {
+  background-color: #e6e6e6; }
+
+.products-header {
+  margin: 0;
+  padding: 5px;
+  text-decoration: underline;
+  text-align: center; }
+
+.products-category {
+  padding: 5px;
+  margin: 0;
+  text-decoration: underline; }
+
+.products-buttons {
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  margin: 5px; }
+
+/*
+*****************
+ABOUT SECTION
+*****************
+*/
