@@ -136,10 +136,16 @@ PRODUCTS SECTION
 .products-header {
   margin: 0;
   padding: 5px;
-  text-decoration: underline;
   text-align: center;
   font-size: 3.5em;
   display: block; }
+
+.products-line {
+  width: 75px;
+  height: 2px;
+  background-color: #003a1a;
+  padding: 5px;
+  margin: -.5em 9em 0 9em; }
 
 .products-category {
   padding: 10px;
@@ -161,7 +167,13 @@ PRODUCTS SECTION
     font-size: 6em; }
   .products-buttons {
     width: 500px;
-    margin: 2em 10em 5em 10em; } }
+    margin: 2em 10em 5em 10em; }
+  .products-line {
+    width: 175px;
+    height: 10px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -.5em 75em 0 75em; } }
 
 @media only screen and (max-width: 1440px) {
   .products-header {
@@ -170,7 +182,13 @@ PRODUCTS SECTION
     font-size: 5em; }
   .products-buttons {
     width: 500px;
-    margin: .5em 6em .5em 6em; } }
+    margin: .5em 6em .5em 6em; }
+  .products-line {
+    width: 100px;
+    height: 5px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -.5em 43em 0 43em; } }
 
 @media only screen and (max-width: 1024px) {
   .products-header {
@@ -179,7 +197,13 @@ PRODUCTS SECTION
     font-size: 4em; }
   .products-buttons {
     width: 375px;
-    margin: .5em 3.5em .5em 3.5em; } }
+    margin: .5em 3.5em .5em 3.5em; }
+  .products-line {
+    width: 100px;
+    height: 5px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -.5em 29em 0 29em; } }
 
 @media only screen and (max-width: 768px) {
   .products-header {
@@ -188,7 +212,13 @@ PRODUCTS SECTION
     font-size: 3em; }
   .products-buttons {
     width: 300px;
-    margin: .5em 2em .5em 2em; } }
+    margin: .5em 2em .5em 2em; }
+  .products-line {
+    width: 75px;
+    height: 2px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -.5em 22em 0 22em; } }
 
 @media only screen and (max-width: 425px) {
   .products-header {
@@ -197,7 +227,13 @@ PRODUCTS SECTION
     font-size: 2em; }
   .products-buttons {
     width: 300px;
-    margin: .5em 2em .5em 2em; } }
+    margin: .5em 2em .5em 2em; }
+  .products-line {
+    width: 75px;
+    height: 2px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -.5em 11em 0 11em; } }
 
 @media only screen and (max-width: 375px) {
   .products-header {
@@ -206,7 +242,13 @@ PRODUCTS SECTION
     font-size: 1.75em; }
   .products-buttons {
     width: 200px;
-    margin: .5em 5em .5em 5em; } }
+    margin: .5em 5em .5em 5em; }
+  .products-line {
+    width: 75px;
+    height: 2px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -.5em 9em 0 9em; } }
 
 /*
 *****************
@@ -217,41 +259,83 @@ ABOUT SECTION
   display: block;
   font-size: 3.5em;
   text-align: center;
-  padding: 10px;
-  text-decoration: underline; }
+  padding: 10px; }
+
+.about-line {
+  width: 75px;
+  height: 2px;
+  background-color: #003a1a;
+  padding: 5px;
+  margin: -1em 9em 0 9em; }
 
 @media only screen and (max-width: 2560px) {
   .about-header {
     font-size: 12em; }
   .about-content {
-    font-size: 3em; } }
+    font-size: 3em; }
+  .about-line {
+    width: 175px;
+    height: 10px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -1em 75em 0 75em; } }
 
 @media only screen and (max-width: 1440px) {
   .about-header {
     font-size: 10em; }
   .about-content {
-    font-size: 2.5em; } }
+    font-size: 2.5em; }
+  .about-line {
+    width: 100px;
+    height: 5px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -1em 43em 0 43em; } }
 
 @media only screen and (max-width: 1024px) {
   .about-header {
     font-size: 8em; }
   .about-content {
-    font-size: 2em; } }
+    font-size: 2em; }
+  .about-line {
+    width: 100px;
+    height: 5px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -1em 29em 0 29em; } }
 
 @media only screen and (max-width: 768px) {
   .about-header {
     font-size: 6em; }
   .about-content {
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  .about-line {
+    width: 75px;
+    height: 2px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -1em 22em 0 22em; } }
 
 @media only screen and (max-width: 425px) {
   .about-header {
     font-size: 4em; }
   .about-content {
-    font-size: 1.25em; } }
+    font-size: 1.25em; }
+  .about-line {
+    width: 75px;
+    height: 2px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -1em 11em 0 11em; } }
 
 @media only screen and (max-width: 375px) {
   .about-header {
     font-size: 3.5em; }
   .about-content {
-    font-size: 1em; } }
+    font-size: 1em; }
+  .about-line {
+    width: 75px;
+    height: 2px;
+    background-color: #003a1a;
+    padding: 5px;
+    margin: -1em 9em 0 9em; } }
