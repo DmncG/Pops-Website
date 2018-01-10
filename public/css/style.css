@@ -28,7 +28,10 @@ NAVBAR
   width: calc(100vw - 1.3em);
   border-radius: 0 0 1em 1em;
   position: fixed;
-  z-index: 1; }
+  z-index: 1;
+  transition: all .5s ease-out; }
+  .nav-wrapper.active {
+    transform: translateY(-2.5em); }
 
 .nav-list {
   text-align: right;

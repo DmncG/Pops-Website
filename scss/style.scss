@@ -16,6 +16,11 @@ NAVBAR
     border-radius: 0 0 1em 1em;
     position: fixed;
     z-index: 1;
+    transition: all .5s ease-out;
+
+    &.active{
+        transform: translateY(-2.5em)
+    }
     
   }
 
