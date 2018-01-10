@@ -9,4 +9,16 @@ $window.on('scroll', () => {
  2. When I am scrolling, the navbar disappears, but when I hover back to the navbar, it reappears
  */
 
+function navScrollHome () {
+
+ $window.scrollTop(0)
+
+ }
+
+
+
+
+
+
+
  
