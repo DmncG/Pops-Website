@@ -39,7 +39,14 @@ NAVBAR
   display: inline-block;
   padding: 5px 5px 5px 0;
   font-size: 1.2em;
-  font-family: "Alegreya", serif; }
+  font-family: "Alegreya", serif;
+  color: white;
+  border: none;
+  outline: none;
+  margin: 0;
+  background: none; }
+  .nav-item:hover {
+    color: #003a1a; }
 
 @media only screen and (max-width: 2560px) {
   .nav-wrapper {
