@@ -1,5 +1,6 @@
 let express = require("express");
 let path = require("path");
+let PORT = process.env.PORT || 8081
 
 let app = express();
 
@@ -9,6 +10,6 @@ app.get("/", function(req, res, next) {
   res.sendFile(path.join(__dirname + "/index.html"));
 });
 
-app.listen(8081, function() {
-  console.log("~~~~ Server listening on 8081 ~~~~");
+app.listen(PORT, function() {
+  console.log(`~~~~ Server listening on ${PORT} ~~~~`);
 });

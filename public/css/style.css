@@ -198,7 +198,7 @@ PRODUCTS SECTION
     height: 5px;
     background-color: #003a1a;
     padding: 5px;
-    margin: -.5em 43em 0 43em; } }
+    margin: -.5em 38em 0 38em; } }
 
 @media only screen and (max-width: 1024px) {
   .products-header {
@@ -288,7 +288,7 @@ ABOUT SECTION
     height: 10px;
     background-color: #003a1a;
     padding: 5px;
-    margin: -1em 75em 0 75em; } }
+    margin: -.1em 75em 0 75em; } }
 
 @media only screen and (max-width: 1440px) {
   .about-header {
@@ -300,7 +300,7 @@ ABOUT SECTION
     height: 5px;
     background-color: #003a1a;
     padding: 5px;
-    margin: -1em 43em 0 43em; } }
+    margin: -1em 38em 0 38em; } }
 
 @media only screen and (max-width: 1024px) {
   .about-header {
