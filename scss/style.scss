@@ -127,7 +127,7 @@ TITLE SECTION
 }
 
 #title-refinery{
-    width: 375px;
+    width: 100vw;
     height: auto;
 }
 
@@ -141,7 +141,8 @@ TITLE SECTION
 
 @media only screen and (max-width: 1440px) {
     #title-refinery{
-        width: 1440px;
+        width: 100vw;
+        height: auto;
 
     }
 
@@ -257,25 +258,37 @@ PRODUCTS SECTION
 
 @media only screen and (max-width: 1440px){
     .products-header{
-        font-size: 10em;
+        font-size: 7em;
     }
 
     .products-category{
-        font-size: 5em;
+        font-size: 3em;
+    }
+
+    .products-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+        align-content: center;
     }
 
     .products-buttons{
-        width: 500px;
-        margin: .5em 6em .5em 6em;
+        width: 300px;
+        margin-right: 1em;
+        margin-left: 3em;
+        margin-top: .5em;
+        margin-bottom: .5em;
+
     }
 
     .products-line{
-        width: 100px;
+        width: 75px;
         height: 5px;
         background-color: $highlight-color;
         padding: 5px;
         margin: -.5em 38em 0 38em;
     }
+
 }
 
 @media only screen and (max-width: 1024px){
@@ -367,6 +380,7 @@ PRODUCTS SECTION
     .products-buttons{
         width: 150px;
         margin-left: .2em;
+        margin-right: .2em;
     }
 
     .products-line{
@@ -419,14 +433,14 @@ ABOUT SECTION
 
 @media only screen and (max-width: 1440px){
     .about-header{
-        font-size: 10em;
+        font-size: 7em;
     }
     .about-content{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .about-line{
-        width: 100px;
+        width: 75px;
         height: 5px;
         background-color: $highlight-color;
         padding: 5px;
