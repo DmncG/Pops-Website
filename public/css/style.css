@@ -164,7 +164,7 @@ PRODUCTS SECTION
   font-size: 1.75em; }
 
 .products-buttons {
-  width: 200px;
+  width: 100px;
   display: inline-block;
   height: auto;
   padding: .5em;
@@ -250,9 +250,12 @@ PRODUCTS SECTION
     font-size: 3.5em; }
   .products-category {
     font-size: 1.75em; }
+  .products-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
   .products-buttons {
-    width: 200px;
-    margin: .5em 5em .5em 5em; }
+    width: 150px;
+    margin-left: .2em; }
   .products-line {
     width: 75px;
     height: 2px;
