@@ -242,9 +242,19 @@ PRODUCTS SECTION
         font-size: 6em;
     }
 
+    .products-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 1em;
+        align-content: center;
+    }
+
     .products-buttons{
-        width: 500px;
-        margin: 2em 10em 5em 10em;
+        width: 300px;
+        margin-right: 1em;
+        margin-left: 3em;
+        margin-top: .5em;
+        margin-bottom: .5em;
     }
 
     .products-line{
@@ -416,10 +426,10 @@ ABOUT SECTION
 
 @media only screen and (max-width: 2560px){
     .about-header{
-        font-size: 12em;
+        font-size: 7em;
     }
     .about-content{
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .about-line{
